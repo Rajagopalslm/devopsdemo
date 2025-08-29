@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 40px 20px;
+  color: white;
+  min-height: 100vh;
+}
+
+.App h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+  opacity: 0.9;
+}
+
+.demo-section {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 400px;
+  backdrop-filter: blur(10px);
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.counter button {
+  background: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.counter button:hover {
+  background: #45a049;
+  transform: scale(1.1);
+}
+
+.count {
+  font-size: 3rem;
+  font-weight: bold;
+  min-width: 60px;
+}
+
+.info-section {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 500px;
+  backdrop-filter: blur(10px);
+}
+
+.info-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-section li {
+  padding: 10px 0;
+  font-size: 1.1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.info-section li:last-child {
+  border-bottom: none;
+}
+
+.tech-stack {
+  margin: 30px auto;
+  max-width: 500px;
+}
+
+.badges {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.badge {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.deploy-info {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  opacity: 0.8;
+}
+
+.deploy-info p {
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .App h1 {
+    font-size: 2rem;
+  }
+  
+  .demo-section, .info-section {
+    margin: 20px 10px;
+    padding: 20px;
+  }
+  
+  .badges {
+    flex-direction: column;
+    align-items: center;
+  }
+}
