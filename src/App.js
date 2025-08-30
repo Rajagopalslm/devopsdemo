@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
-  const [deployTime, setDeployTime] = useState(new Date().toLocaleString());
+  const [deployTime] = useState(new Date().toLocaleString());
 
   return (
     <div className="App">
