@@ -23,6 +23,13 @@ test('counter increments when + button is clicked', () => {
   expect(screen.getByText('1')).toBeInTheDocument();
 });
 
+//Find the - button.
+//First clicks + to make counter = 1.
+//Then clicks - to bring it back to 0.
+//Confirms counter is 0 again.
+
+
+
 test('counter decrements when - button is clicked', () => {
   render(<App />);
   const decrementButton = screen.getByText('-');
