@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>🚀 DevOps Demo Application for SRM  Students</h1>
+        <h1>🚀 DevOps Demo Application</h1>
         <p className="subtitle">Automated Deployment with GitHub Actions Demo</p>
         
         <div className="demo-section">
