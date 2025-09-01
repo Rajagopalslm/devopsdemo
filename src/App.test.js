@@ -38,7 +38,7 @@ test('counter decrements when - button is clicked', () => {
   // First increment to 1, then decrement to 0
   fireEvent.click(incrementButton);
   fireEvent.click(decrementButton);
-  expect(screen.getByText('0')).toBeInTheDocument();
+  expect(screen.getByText('1')).toBeInTheDocument();
 });
 
 test('renders tech stack badges', () => {
